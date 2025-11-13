@@ -11,5 +11,5 @@ while read df; do
   ln -sf "$df" "$link"
 done
 
-apt-get update
-apt-get install vim renameutils
+sudo apt-get update
+sudo apt-get install vim renameutils
