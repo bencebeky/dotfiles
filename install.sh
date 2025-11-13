@@ -12,7 +12,7 @@ while read df; do
 done
 
 sudo mkdir -p /root/.aptitude
-sudo cp aptitude-config /root/.aptitude/config
+sudo cp $DOTFILES_PATH/aptitude-config /root/.aptitude/config
 sudo chown root.root /root/.aptitude/config
 
 sudo apt-get update
