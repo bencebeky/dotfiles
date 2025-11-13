@@ -31,3 +31,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubc
 
 sudo apt-get update
 sudo apt-get install -y aptitude gh renameutils tmux vim
+
+# git config
+
+git config --global alias.co checkout
+git config --global push.autoSetupRemote true
