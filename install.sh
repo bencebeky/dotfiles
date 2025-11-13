@@ -11,5 +11,9 @@ while read df; do
   ln -sf "$df" "$link"
 done
 
+sudo mkdir -p /root/.aptitude
+sudo cp aptitude-config /root/.aptitude/config
+sudo chown root.root /root/.aptitude/config
+
 sudo apt-get update
 sudo apt-get install -y aptitude renameutils tmux vim
