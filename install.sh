@@ -12,4 +12,4 @@ while read df; do
 done
 
 sudo apt-get update
-sudo apt-get install -y renameutils tmux vim
+sudo apt-get install -y aptitude renameutils tmux vim
