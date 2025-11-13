@@ -13,4 +13,4 @@ set background=light
 set incsearch
 set textwidth=80
 set tabpagemax=50
-colorscheme sorbet
+colorscheme elflord
