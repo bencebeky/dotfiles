@@ -36,3 +36,5 @@ sudo apt-get install -y aptitude gh renameutils tmux vim
 
 git config --global alias.co checkout
 git config --global push.autoSetupRemote true
+git config --global color.diff.new "brightgreen bold"
+git config --global color.diff.old "brightred bold"
