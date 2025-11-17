@@ -30,7 +30,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubc
 # install some packages
 
 sudo apt-get update
-sudo apt-get install -y aptitude gh python3-numpy renameutils tmux vim
+sudo apt-get install -y aptitude dnsutils gh python3-numpy renameutils tmux vim
 
 # git config
 
