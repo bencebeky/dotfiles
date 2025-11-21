@@ -15,3 +15,10 @@ set textwidth=80
 set tabpagemax=50
 set ruler
 colorscheme elflord
+" Enable indent-based folding for YAML and Python
+augroup IndentFolds
+  autocmd!
+  autocmd FileType yaml,python setlocal foldmethod=indent
+  autocmd FileType yaml,python setlocal foldlevel=99
+augroup END
+set foldopen=block,hor,mark,percent,quickfix,search,tag,undo
