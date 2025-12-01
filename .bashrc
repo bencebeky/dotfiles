@@ -120,3 +120,5 @@ fi
 
 alias t='tmux attach || tmux'
 alias vim='vim -p'
+
+export PATH=$PATH:$HOME/go/bin
