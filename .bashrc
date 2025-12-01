@@ -122,3 +122,8 @@ alias t='tmux attach || tmux'
 alias vim='vim -p'
 
 export PATH=$PATH:$HOME/go/bin
+
+# follow instructions at https://brew.sh/ to install Brew
+if [ -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
