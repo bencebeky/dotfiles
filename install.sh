@@ -34,6 +34,7 @@ sudo apt-get install -y \
     aptitude \
     bash-completion \
     dnsutils \
+    fzf \
     gh \
     python3-numpy \
     renameutils \
