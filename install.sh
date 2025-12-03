@@ -31,11 +31,13 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubc
 
 sudo apt-get update
 sudo apt-get install -y \
+    apt-utils \
     aptitude \
     bash-completion \
     dnsutils \
     fzf \
     gh \
+    libtinfo5 \
     python3-numpy \
     renameutils \
     tmux \
