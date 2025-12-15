@@ -127,3 +127,8 @@ export PATH=$PATH:$HOME/go/bin
 if [ -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
+
+export ENVOY_DOCKER_BUILD_DIR=$HOME/.envoy-docker-build
+if [ ! -d $ENVOY_DOCKER_BUILD_DIR ] ; then
+  mkdir -p $ENVOY_DOCKER_BUILD_DIR
+fi
