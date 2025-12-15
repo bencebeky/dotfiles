@@ -118,9 +118,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias t='tmux attach || tmux'
-alias vim='vim -p'
-
 export PATH=$PATH:$HOME/go/bin
 
 # follow instructions at https://brew.sh/ to install Brew
@@ -132,3 +129,7 @@ export ENVOY_DOCKER_BUILD_DIR=$HOME/.envoy-docker-build
 if [ ! -d $ENVOY_DOCKER_BUILD_DIR ] ; then
   mkdir -p $ENVOY_DOCKER_BUILD_DIR
 fi
+
+alias gitroot='cd `git rev-parse --show-toplevel`'
+alias t='tmux attach || tmux'
+alias vim='vim -p'
