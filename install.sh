@@ -34,6 +34,9 @@ sudo apt-get install -y \
     apt-utils \
     aptitude \
     bash-completion \
+    inetutils-ping \
+    inetutils-telnet \
+    inetutils-traceroute \
     dnsutils \
     fzf \
     gh \
