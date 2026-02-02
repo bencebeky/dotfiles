@@ -34,12 +34,13 @@ sudo apt-get install -y \
     apt-utils \
     aptitude \
     bash-completion \
+    dnsutils \
+    file \
+    fzf \
+    gh \
     inetutils-ping \
     inetutils-telnet \
     inetutils-traceroute \
-    dnsutils \
-    fzf \
-    gh \
     libtinfo5 \
     python3-numpy \
     renameutils \
