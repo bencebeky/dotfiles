@@ -130,6 +130,14 @@ if [ ! -d $ENVOY_DOCKER_BUILD_DIR ] ; then
   mkdir -p $ENVOY_DOCKER_BUILD_DIR
 fi
 
+if [ -f /usr/share/bash-completion/completions/fzf ]; then
+  source /usr/share/bash-completion/completions/fzf
+fi
+
+if [ -f /usr/share/doc/fzf/examples/key-bindings.bash ]; then
+  source /usr/share/doc/fzf/examples/key-bindings.bash
+fi
+
 alias gitroot='cd `git rev-parse --show-toplevel`'
 alias t='tmux attach || tmux'
 alias vim='vim -p'
